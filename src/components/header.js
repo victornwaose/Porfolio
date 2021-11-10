@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
-            <header className="flex justify-between py-1 px-5 absolute w-full  text-white">
+        <div className="bg-gray-700  fixed w-full p-2 ">
+            <header className="flex justify-between align-middle w-4/5 ml-auto mr-auto mt-4 relative pb-2  text-white">
                 <div className="logo">
-                    <h1 className="text-3xl">
-                        <Link to="/">VickXY</Link>
+                    <h1 className="  text-lg lg:text-3xl md:text-3xl">
+                        <Link to="/">Victor</Link>
                     </h1>
                 </div>
                 <nav>
                     <ul className="flex">
-                        <li className="mr-5">
+                        <li className="ml-5  text-lg lg:text-3xl md:text-3xl">
                             <Link to="/"> Home</Link>
                         </li>
-                        <li className="mr-5">
+                        <li className="ml-3  text-lg lg:text-3xl md:text-3xl">
                             <Link to="/projects">Projects</Link>
                         </li>
-                        <li className="mr-5">
+                        <li className="ml-3  text-lg lg:text-3xl md:text-3xl">
                             <Link
                                 to="/hire"
-                                className=" bg-green-500 p-2 px-4 rounded-full font-semibold hover:bg-green-800"
+                                className=" bg-green-500 p-1 rounded-full font-semibold hover:bg-green-800"
                             >
                                 {" "}
                                 Hire Me

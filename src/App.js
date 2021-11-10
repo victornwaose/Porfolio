@@ -1,9 +1,9 @@
-import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./header";
+
+import Header from "./components/header";
 import ShowCase from "./components/showCase";
-import Projects from "./components/project";
-import Hire from "./components/hire";
+import Projects from "./pages/project";
+import Hire from "./pages/hire";
 
 function App() {
     return (
